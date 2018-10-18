@@ -73,3 +73,7 @@ footer {
   text-align: center;
   text-size: .75em;
 }
+
+.nav .current {
+  background-color: #b20953;
+}
