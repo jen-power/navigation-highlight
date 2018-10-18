@@ -33,10 +33,6 @@ header {
   margin: 0;
 }
 
-footer {
-  background-color: #ffe500;
-}
-
 li {
   display: inline-block;
   margin-bottom: .3em;
@@ -71,8 +67,9 @@ main {
 }
 
 footer {
+  background-color: #ffe500;
   text-align: center;
-  text-size: .75em;
+  font-size: .75em;
 }
 
 .nav .current {
