@@ -1,7 +1,75 @@
 html {
   box-sizing: border-box;
+  font-family: "Georgia", serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1, h2 {
+  font-family: "Sigmar One", sans-serif;
+  color: #b20953;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.875rem;
+}
+
+body {
+margin: 0;
+}
+
+header {
+  background-color: #ffe500;
+  margin: 0;
+}
+
+footer {
+  background-color: #ffe500;
+}
+
+li {
+  display: inline-block;
+  margin-bottom: .3em;
+
+}
+
+nav {
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #b2a212;
+  border-radius: 4px;
+  padding: .2em .5em .3em;
+}
+
+a:hover {
+  background-color: #cc1465;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+main {
+  padding: 0 .75em;
+}
+
+footer {
+  text-align: center;
+  text-size: .75em;
 }
